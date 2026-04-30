@@ -7,7 +7,12 @@
 		{
 			"Name": "HM08",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"UMG",
+				"Engine",
+				"AIModule"
+			]
 		}
 	],
 	"Plugins": [
